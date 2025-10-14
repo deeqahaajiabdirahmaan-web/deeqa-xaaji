@@ -1,0 +1,78 @@
+/* Body background iyo font */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Box-ka weyn */
+.box {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 320px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header-ka */
+.box h3 {
+  text-align: center;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+/* Labels */
+.box label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #555;
+}
+
+/* Input fields */
+.box input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+/* Buttons container */
+.box div {
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* Buttons */
+.box button {
+  padding: 6px 12px;
+  margin-right: 8px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #007BFF;
+  color: white;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+/* Hover effect for buttons */
+.box button:hover {
+  background-color: #0056b3;
+}
+
+/* Message text */
+#msg {
+  margin-top: 10px;
+  text-align: center;
+  color: green;
+  font-weight: bold;
+}
