@@ -1,34 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css.css">
-    <title>Loops lesson</title>
-  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+      <title>Document</title>
 </head>
 <body>
-    <div class="box">
-    <h3>Create User</h3>
-
-    <label>Username:</label>
-    <input type="text" id="createUsername">
-
-    <label>Password:</label>
-    <input type="password" id="createPassword">
-
-    <label>Re-enter Password:</label>
-    <input type="password" id="rePassword">
-
-    <div style="margin-top:8px;">
-      <button onclick="saveAndGo()">Create</button>
-      <button onclick="showExit()">Exit</button>
-      <button onclick="clearFields()">Clear</button>
+  <div class="calculator">
+    <input type="text"placeholder="0" id="inputBox">
+    <div>
+     <button  class="operator">AC</button>
+     <button  class="operator">DEL</button>
+    <button  class="operator">%</button>
+    <button  class="operator">/</button>
     </div>
-   <p id="msg"></p>
+    <div> 
+       <button>7</button>
+     <button>8</button>
+    <button>9</button>
+    <button  class="operator">*</button>
+    </div>
+  <div>
+     <button>4</button>
+     <button>5</button>
+    <button>6</button>
+    <button  class="operator">-</button>
+  </div>
+  <div>
+     <button>1</button>
+     <button>2</button>
+    <button>3</button>
+    <button class="operator">+</button>
+  </div>
+  <div>
+     <button>00</button>
+     <button>0</button>
+    <button>.</button>
+    <button class="equalbtn">=</button>
+  </div>
+  <script src="script.js">
 
-        </fieldset>
-    </form>
-    <script src="A.js"></script>
+  </script>
+  </div>
 </body>
 </html>
